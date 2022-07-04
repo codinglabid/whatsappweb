@@ -2,7 +2,10 @@
     "name": "whatsappweb/yii2-whatsapp-web",
     "description": "whatsappweb",
     "type": "library",
-    "keywords": ["yii2","extension"],
+    "keywords": [
+        "yii2",
+        "extension"
+    ],
     "license": "MIT",
     "authors": [
         {
