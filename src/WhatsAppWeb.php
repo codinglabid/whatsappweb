@@ -6,7 +6,7 @@ use yii\base\Component;
 
 class WhatsAppWeb extends Component
 {
-    private $url; // = 'send-message';
+    private $url;
     private $phoneNumber; // ';
     private $message = '';
     private $clientId = 0;
@@ -38,6 +38,6 @@ class WhatsAppWeb extends Component
         ]);
         $server_output = curl_exec($ch);
         curl_close($ch);
-        print  $server_output;
+        return  $server_output;
     }
 }
