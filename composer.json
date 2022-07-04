@@ -1,6 +1,6 @@
 {
-    "name": "whatsappweb/yii2-whatsapp-web",
-    "description": "whatsappweb",
+    "name": "whatsapp/yii2-whatsapp-web",
+    "description": "whatsapp",
     "type": "library",
     "keywords": [
         "yii2",
