@@ -1,10 +1,9 @@
 <?php
 
-namespace codinglab\whatsapp;
+namespace codinglab\whatsappweb;
 
-use yii\base\Component;
 
-class WhatsAppWeb extends Component
+class WhatsAppWeb
 {
     private $url; // = 'send-message';
     private $phoneNumber; // ';

@@ -1,9 +1,9 @@
 {
-    "name": "whatsappweb/yii2-whatsapp-web",
-    "description": "whatsappweb",
+    "name": "codinglab/yii2-whatsapp-web",
+    "description": "codinglab",
     "type": "library",
     "keywords": [
-        "yii2",
+        "whatsapp",
         "extension"
     ],
     "license": "MIT",
