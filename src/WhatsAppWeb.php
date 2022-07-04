@@ -5,7 +5,7 @@ namespace codinglab\whatsappweb;
 
 class WhatsAppWeb
 {
-    private $url; // = 'send-message';
+    private $url;
     private $phoneNumber; // ';
     private $message = '';
     private $clientId = 0;
@@ -37,6 +37,6 @@ class WhatsAppWeb
         ]);
         $server_output = curl_exec($ch);
         curl_close($ch);
-        print  $server_output;
+        return  $server_output;
     }
 }
