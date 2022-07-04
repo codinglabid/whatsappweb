@@ -1,0 +1,21 @@
+{
+    "name": "whatsappweb/yii2-whatsapp-web",
+    "description": "whatsappweb",
+    "type": "library",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "codinglab.id",
+            "email": "codinglab.id@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "codinglab\\whatsappweb\\": ""
+        }
+    }
+}
