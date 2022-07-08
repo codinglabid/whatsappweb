@@ -8,14 +8,14 @@ class WhatsAppWeb
     private $url;
     private $phoneNumber; // ';
     private $message = '';
-    private $clientId = 0;
+    // private $clientId = 0;
 
-    function __construct($url, $phoneNumber, $message, $clientId)
+    function __construct($url, $phoneNumber, $message)
     {
         $this->url = $url;
         $this->phoneNumber = $phoneNumber;
         $this->message = $message;
-        $this->clientId = $clientId;
+        // $this->clientId = $clientId;
     }
 
     function sendMessage()
@@ -32,7 +32,7 @@ class WhatsAppWeb
             CURLOPT_POSTFIELDS =>  json_encode([
                 "number" => $this->phoneNumber,
                 "message" => $this->message,
-                "sender" => $this->clientId,
+                // "sender" => $this->clientId,
             ])
         ]);
         $server_output = curl_exec($ch);
