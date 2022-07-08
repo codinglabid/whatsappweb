@@ -26,6 +26,6 @@ to the require section of your `composer.json` file.
 $url = 'http://env-3280255.user.cloudjkt01.com/send-message';
 $phoneNumber = '081277758656';
 $message = 'halo mas mas';
-$WhatsApp = new WhatsAppWeb($url, $phoneNumber, $message, 1234);
+$WhatsApp = new WhatsAppWeb($url, $phoneNumber, $message);
 $WhatsApp->sendMessage();
 ```
